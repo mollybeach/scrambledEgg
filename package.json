@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "scramble file names script",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mollybeach/scrambledEgg/issues"
   },
-  "homepage": "https://github.com/mollybeach/scrambledEgg#readme"
+  "homepage": "https://github.com/mollybeach/scrambledEgg#readme",
+  "dependencies": {
+    "fs": "*"
+  }
 }
